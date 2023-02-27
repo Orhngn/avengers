@@ -10,7 +10,7 @@ h3 {
   color: aliceblue;
   font-size: 48px;
 }
-body p {
+body p { 
   font-family: "Caveat", cursive;
   font-size: 24px;
   font-weight: bolder;
@@ -145,6 +145,8 @@ body p {
   height: 100%;
   border-radius: 12px;
   box-shadow: 0 0 16px 0 lemonchiffon;
+  object-fit: cover;
+  
 }
 .container-armor {
   width: 90%;
@@ -185,6 +187,7 @@ body p {
   height: 100%;
   border-radius: 12px;
   box-shadow: 0 0 16px 0 lemonchiffon;
+  object-fit: cover;
 }
 .container-robert {
   width: 90%;
@@ -225,6 +228,7 @@ body p {
   height: 100%;
   border-radius: 12px;
   box-shadow: 0 0 16px 0 lemonchiffon;
+  object-fit: cover;
 }
 .container-film {
   width: 90%;
@@ -265,6 +269,8 @@ body p {
   height: 100%;
   border-radius: 12px;
   box-shadow: 0 0 16px 0 lemonchiffon;
+  /* resimlerin bozulmasını biraz önler */
+  object-fit: cover;
 }
 footer {
   display: flex;
